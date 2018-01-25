@@ -34,7 +34,11 @@ class ListingsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Validation
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'email'
+        ]);
     }
 
     /**
