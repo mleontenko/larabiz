@@ -14,7 +14,7 @@
                     {{Form::bsText('phone', '', ['placeholder' => 'Contact Phone'])}}
                     {{Form::bsText('address', '', ['placeholder' => 'Business Address'])}}
                     {{Form::bsTextArea('bio', '', ['placeholder' => 'About This Business'])}}
-                    {{Form::bsSubmit('submit')}}
+                    {{Form::bsSubmit('Submit', ['class' => 'btn btn-default'])}}
                 {!! Form::close() !!}
             </div>
         </div>

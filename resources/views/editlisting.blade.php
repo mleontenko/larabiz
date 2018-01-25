@@ -15,7 +15,7 @@
                     {{Form::bsText('address', $listing->address, ['placeholder' => 'Business Address'])}}
                     {{Form::bsTextArea('bio', $listing->bio, ['placeholder' => 'About This Business'])}}
                     {{Form::hidden('_method', 'PUT')}}
-                    {{Form::bsSubmit('submit')}}
+                    {{Form::bsSubmit('Submit', ['class' => 'btn btn-default'])}}
                 {!! Form::close() !!}
             </div>
         </div>
